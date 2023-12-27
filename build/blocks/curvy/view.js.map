@@ -1,0 +1,1 @@
+{"version":3,"file":"blocks/curvy/view.js","mappings":";;;;;AAAA;AACAA,OAAO,CAACC,GAAG,CAAE,8CAA+C,CAAC;AAC7D,8B","sources":["webpack://curvy/./src/blocks/curvy/view.js"],"sourcesContent":["/* eslint-disable no-console */\nconsole.log( 'Hello World! (from create-block-curvy block)' );\n/* eslint-enable no-console */\n"],"names":["console","log"],"sourceRoot":""}
