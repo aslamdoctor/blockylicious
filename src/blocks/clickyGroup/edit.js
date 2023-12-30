@@ -32,7 +32,7 @@ export default function Edit(props) {
 					}
 				/>
 			</BlockControls>
-			<div {...innerBlockProps} />;
+			<div {...innerBlockProps} />
 		</>
 	);
 }

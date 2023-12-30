@@ -417,9 +417,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 function Edit(props) {
-  console.log({
-    props
-  });
   const {
     className,
     ...blockProps

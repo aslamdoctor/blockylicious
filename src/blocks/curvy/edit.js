@@ -41,7 +41,6 @@ import { TopCurveSettings } from "./components/TopCurveSettings";
 import { BottomCurveSettings } from "./components/BottomCurveSettings";
 
 export default function Edit(props) {
-	console.log({ props });
 	const { className, ...blockProps } = useBlockProps();
 	return (
 		<>
