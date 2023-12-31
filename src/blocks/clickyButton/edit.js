@@ -31,8 +31,6 @@ export default function Edit(props) {
 		[props.attributes.postType],
 	);
 
-	console.log({ posts });
-
 	const blockProps = useBlockProps();
 	return (
 		<>

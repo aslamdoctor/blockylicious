@@ -55,7 +55,6 @@ function Edit(props) {
     imageId: innerBlocks?.[0]?.attributes,
     blockId: innerBlocks?.[0]?.clientId
   });
-  console.log(innerBlocks);
   return (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
     ...blockProps
   }, editMode && (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("div", {
@@ -187,9 +186,6 @@ __webpack_require__.r(__webpack_exports__);
 
 const ImageThumbnail = props => {
   const image = (0,_hooks_useImage__WEBPACK_IMPORTED_MODULE_1__.useImage)(props.imageId);
-  console.log({
-    props
-  });
   return image?.source_url ? (0,react__WEBPACK_IMPORTED_MODULE_0__.createElement)("img", {
     style: {
       display: "block",

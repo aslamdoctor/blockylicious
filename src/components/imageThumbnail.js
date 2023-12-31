@@ -2,7 +2,6 @@ import { useImage } from "../hooks/useImage";
 
 export const ImageThumbnail = (props) => {
 	const image = useImage(props.imageId);
-	console.log({ props });
 
 	return image?.source_url ? (
 		<img

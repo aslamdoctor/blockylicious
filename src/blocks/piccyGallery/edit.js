@@ -34,8 +34,6 @@ export default function Edit(props) {
 		blockId: innerBlocks?.[0]?.clientId,
 	});
 
-	console.log(innerBlocks);
-
 	return (
 		<>
 			<div {...blockProps}>

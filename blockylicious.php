@@ -27,8 +27,12 @@ final class Blockylicious {
 			'enqueue_block_assets',
 			function() {
 				wp_enqueue_style( 'dashicons' );
+
+				$style_url = plugins_url( 'build/style-index.css', __FILE__ );
+				wp_enqueue_style( 'blockylicious-style', $style_url, array() );
 			}
 		);
+
 		add_action(
 			'init',
 			function() {
@@ -50,6 +54,12 @@ final class Blockylicious {
 				register_block_type( __DIR__ . '/build/blocks/clickyButton' );
 				register_block_type( __DIR__ . '/build/blocks/piccyGallery' );
 				register_block_type( __DIR__ . '/build/blocks/piccyImage' );
+
+				$script_url = plugins_url( 'build/index.js', __FILE__ );
+				wp_enqueue_script( 'blockylicious-index', $script_url, array( 'wp-blocks', 'wp-element', 'wp-editor' ) );
+
+				$style_url = plugins_url( 'build/style-index.css', __FILE__ );
+				wp_enqueue_style( 'blockylicious-style', $style_url, array() );
 			}
 		);
 	}
