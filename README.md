@@ -22,3 +22,8 @@ https://github.com/aslamdoctor/blockylicious/assets/171670/ae1f4e0b-ba37-4070-b9
 
 https://github.com/aslamdoctor/blockylicious/assets/171670/276411e3-ff73-4cf6-8a72-d63c03916627
 
+## Custom Text Styles
+
+
+https://github.com/aslamdoctor/blockylicious/assets/171670/aaa1d3bf-ddae-424f-99ec-4a2f1edd18a4
+
