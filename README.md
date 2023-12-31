@@ -4,4 +4,21 @@ This is a WordPress plugin created while doing the course **WordPress Gutenberg 
 
 Course URL: https://www.udemy.com/course/wordpress-gutenberg-block-development/
 
+## Curvy Block
+
+
+https://github.com/aslamdoctor/blockylicious/assets/171670/ab8ab525-e9af-4775-ad0a-9b9593b599e7
+
+
+
+## Clicky Group Block
+
+
+https://github.com/aslamdoctor/blockylicious/assets/171670/ae1f4e0b-ba37-4070-b93c-1695f7e414c0
+
+
+## Piccy Gallery
+
+
+https://github.com/aslamdoctor/blockylicious/assets/171670/276411e3-ff73-4cf6-8a72-d63c03916627
 
